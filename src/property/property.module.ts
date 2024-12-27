@@ -2,7 +2,6 @@ import { Module } from '@nestjs/common';
 import { PropertyService } from './property.service';
 import { PropertyController } from './property.controller';
 import { MongooseModule } from '@nestjs/mongoose';
-import { User, UserSchema } from '../users/schemas/users.schemas';
 import { Property, PropertySchema } from './schemas/property.schemas';
 
 @Module({
